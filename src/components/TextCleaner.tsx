@@ -178,6 +178,24 @@ export function TextCleaner() {
           />
         </div>
       )}
+
+      {/* Footer */}
+      <footer className="mt-12 pt-6 border-t border-border/30 text-center">
+        <p className="text-muted-foreground text-sm">
+          Built to help remove repetitive text that clutters your content and disrupts your workflow.
+        </p>
+        <p className="text-muted-foreground/70 text-xs mt-2">
+          Made by{" "}
+          <a
+            href="https://jaidev.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:text-primary/80 transition-colors underline underline-offset-2"
+          >
+            Jaidev B
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
